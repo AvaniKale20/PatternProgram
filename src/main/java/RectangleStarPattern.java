@@ -10,6 +10,16 @@ public class RectangleStarPattern {
 
 
     public String print() {
-        return "**";
+        String result = "";
+        for (int n = 1; n <= nthNumber; n++) {
+            for (int m = 1; m <= mthNumber; m++) {
+                result = result + "*";
+            }
+            if (n != nthNumber) {
+                result = result + "\n";
+            }
+        }
+        return result;
+
     }
 }

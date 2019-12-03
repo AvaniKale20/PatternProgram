@@ -11,4 +11,12 @@ public class RectangleStarPatternTest {
 
     }
 
+    @Test
+    public void givenTwoNthAndFourMthNumber_WhenPrint_ThenShouldPrintEightStar() {
+        RectangleStarPattern rectangleStarPattern = new RectangleStarPattern(2, 4);
+
+        Assertions.assertEquals("****\n****", rectangleStarPattern.print());
+
+    }
+
 }
