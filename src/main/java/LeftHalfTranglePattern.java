@@ -1,7 +1,7 @@
 public class LeftHalfTranglePattern {
 
-    private int nth;
-    private int mth;
+    private final int nth;
+    private final int mth;
 
     public LeftHalfTranglePattern(int nth, int mth) {
         this.nth = nth;
@@ -9,6 +9,16 @@ public class LeftHalfTranglePattern {
     }
 
     public String print() {
-        return "*\n**";
+        String result = "";
+        for (int n = 1; n <= nth; n++) {
+            for (int m = 1; m <= n; m++) {
+                result = result + "*";
+            }
+            if (n != nth) {
+                result = result + "\n";
+            }
+        }
+
+        return result;
     }
 }

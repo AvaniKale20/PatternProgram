@@ -11,4 +11,12 @@ public class LeftHalfTranglePatternTest {
 
     }
 
+    @Test
+    public void givenTwoNthAndFourMthNumber_WhenPrint_ThenShouldPrintEightStar() {
+        LeftHalfTranglePattern leftHalfTranglePattern = new LeftHalfTranglePattern(3, 3);
+
+        Assertions.assertEquals("*\n**\n***", leftHalfTranglePattern.print());
+
+    }
+
 }
