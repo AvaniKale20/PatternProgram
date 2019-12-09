@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PyramidPatternTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-12-09T05:48:13" hostname="Avanis-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="givenOneNthAndOneMthNumber_WhenPrint_ThenShouldShowSpace()" classname="PyramidPatternTest" time="0.001"/>
+  <testcase name="givenTwoNthAndThreeMthNumber_WhenPrint_ThenShouldPrintThreeSpaceAndThreeStar()" classname="PyramidPatternTest" time="0.001"/>
+  <testcase name="givenFiveNthAndFiveMthNumber_WhenPrint_ThenShouldPrintThreeSpaceAndFiveStar()" classname="PyramidPatternTest" time="0.001"/>
+  <testcase name="givenFourNthAndSevenMthNumber_WhenPrint_ThenShouldPrintNineStar()" classname="PyramidPatternTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

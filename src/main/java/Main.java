@@ -19,7 +19,7 @@ public class Main {
         System.out.println(pp.print());
         System.out.println("end");*/
         ////////////////////////////
-        SimpleNumberFormate simpleNumberFormate = new SimpleNumberFormate(1, 1);
+        SimpleNumberFormate simpleNumberFormate = new SimpleNumberFormate(1, 2);
         System.out.println(simpleNumberFormate.print());
 
     }
