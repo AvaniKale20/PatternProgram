@@ -1,5 +1,6 @@
 import com.tw.numberpattern.LeftTriangleNumberFormat;
 import com.tw.numberpattern.SimpleNumberFormate;
+import com.tw.numbersequence.NumberSequencePyramidPattern;
 import com.tw.numbersequence.SequenceNumberRightHalfTrianglePattern;
 
 public class Main {
@@ -30,8 +31,10 @@ public class Main {
        // LeftTriangleNumberFormat leftTriangleNumberFormat = new LeftTriangleNumberFormat(2);
         //System.out.println(leftTriangleNumberFormat.print());
 //////////////
-        SequenceNumberRightHalfTrianglePattern sequenceNumberRightHalfTrianglePattern = new SequenceNumberRightHalfTrianglePattern(3);
-        System.out.println(sequenceNumberRightHalfTrianglePattern.print());
-
+       // SequenceNumberRightHalfTrianglePattern sequenceNumberRightHalfTrianglePattern = new SequenceNumberRightHalfTrianglePattern(3);
+       // System.out.println(sequenceNumberRightHalfTrianglePattern.print());
+/////////////////////////////////////
+        NumberSequencePyramidPattern numberSequencePyramidPattern=new NumberSequencePyramidPattern(2,3);
+        System.out.println(numberSequencePyramidPattern.print());
     }
 }

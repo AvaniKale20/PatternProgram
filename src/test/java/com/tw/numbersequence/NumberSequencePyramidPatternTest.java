@@ -12,4 +12,12 @@ public class NumberSequencePyramidPatternTest {
 
     }
 
+    @Test
+    public void givenTwoNthAndThreeMthNumber_WhenPrint_ThenShouldPrintThreeSpaceAndThreeStar() {
+        NumberSequencePyramidPattern numberSequenceSquarePattern = new NumberSequencePyramidPattern(2, 3);
+
+        Assertions.assertEquals(" 1 \n234", numberSequenceSquarePattern.print());
+
+    }
+
 }
