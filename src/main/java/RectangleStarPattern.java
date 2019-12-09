@@ -13,7 +13,9 @@ public class RectangleStarPattern {
         String result = "";
         for (int n = 1; n <= nthNumber; n++) {
             for (int m = 1; m <= mthNumber; m++) {
-                result = result + "*";
+                if (m <= mthNumber) {
+                    result = result + "*";
+                }
             }
             if (n != nthNumber) {
                 result = result + "\n";

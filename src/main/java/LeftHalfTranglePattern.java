@@ -17,6 +17,7 @@ public class LeftHalfTranglePattern {
             if (n != nth) {
                 result = result + "\n";
             }
+
         }
 
         return result;
