@@ -19,6 +19,7 @@ public class NumberSequencePyramidPatternTest {
         Assertions.assertEquals(" 1 \n234", numberSequenceSquarePattern.print());
 
     }
+
     @Test
     public void givenTwoNthAndThreeMthNumber_WhenPrint_ThenShouldPrintOneToNineNumber() {
         NumberSequencePyramidPattern numberSequenceSquarePattern = new NumberSequencePyramidPattern(3, 5);
